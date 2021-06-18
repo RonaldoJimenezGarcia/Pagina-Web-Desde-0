@@ -1,14 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
+:root{
+    --color-primary: #444cf7;
+    --color-title: #000;
+    --align--title: left;
+    --padding-container: 100px 0;
+    --width-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #444cf7;
+    --tex-btn: #fff;
+    --padding-btn: 20px 35px;
+    --height-shape: 18em;
+}
+
 body{
     font-family: 'Inter', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  radial-gradient(#444CF7 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#444CF7 0.7000000000000001px, #E5E5F7 0.7000000000000001px);
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
 }
 
-.card_img{
-    width: 100px;
-    background: #000;
-}
-
-.footer_icon{
-    width: 30px;
+.container{
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    padding: var(--padding-container);
+    margin: auto;
+    overflow: hidden;
 }
