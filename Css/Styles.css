@@ -80,3 +80,61 @@ body{
     width: 95%;
 }
 
+/*Main*/
+
+main{
+    background: #fff;
+}
+
+.title{
+    font-size: 2,5rem;
+    text-align: var(--align--title);
+    color: var(--color-title);
+}
+
+.title--border::after{
+    content: "";
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    height: 4px;
+    background: var(--color-primary);
+}
+
+/*Instructor*/
+.instructor{
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    --padding-container: 20px 0 60px;
+}
+
+.instructor_container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.instructor_name{
+    margin: 20px 0;
+}
+
+.instructor_tag{
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.instructor_paragraph{
+    text-align: left;
+    line-height: 1.5;
+    font-style: italic;
+    color: #655a5a;
+}
+
+.instructor_img{
+    height: 170px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
