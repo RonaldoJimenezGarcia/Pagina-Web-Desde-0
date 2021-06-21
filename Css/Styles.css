@@ -341,3 +341,17 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.footer_icon{
+    width: 35px;
+}
+
+.footer_copyring{
+    padding-top: 20px;
+    border-top: 2px solid #918484;
+    text-align: center;
+}
+
+.footer_copyring::after{
+    content: " ronaldojimenezgarcia9@gmail.com";
+}
